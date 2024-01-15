@@ -1,3 +1,2 @@
 # Gender-pay-gap
-Arij Thameur
-Introduction 
+Arij Thameur 
