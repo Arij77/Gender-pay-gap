@@ -1,7 +1,13 @@
-# Gender-pay-gap
-Arij Thameur 
+# Gender Pay Gap Overview
+Arij Thameur (20 February 2025)
 
-## Introduction 
+## Introduction
 
 Plain text
+### Diving into the data
 
+#### Methodology
+
+##### Analysis
+
+###### Conclusion 
