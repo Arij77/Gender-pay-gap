@@ -4,10 +4,10 @@ Arij Thameur (20 February 2025)
 ## Introduction
 
 Plain text
-### Diving into the data
+## Diving into the data
 
-#### Methodology
+## Methodology
 
-##### Analysis
+## Analysis
 
-###### Conclusion 
+## Conclusion 
