@@ -137,11 +137,11 @@ We clearly see that the genral trend of the average pay gap is more leaning towa
 So to get a better understanding of how the data represented I used a facet plot of each contry.
 
 ```r
-selected_countries <- c("Switzerland", "Germany", "Iceland", "Japan")
 ggplot(WB_GS_summary %>% filter(`Economy Name` %in% selected_countries), 
-       aes(x = Year, y = Average_Pay_Gap, group = `Economy Name`, color = `Economy Name`)) +
+       aes(x = Year, y = Average_Pay_Gap)) +
   geom_line() +
-  labs(title = "Trend of Pay Gap for Selected Countries", x = "Year", y = "Average Pay Gap") +
+  facet_wrap(~ `Economy Name`) +
+  labs(title = "Trend of Pay Gap by Country", x = "Year", y = "Average Pay Gap") +
   theme_minimal()
 ```
 ![Capture d'écran 2025-02-28 124410](https://github.com/user-attachments/assets/6976c442-3e00-463b-b9a7-9ce3fa3699c7)
